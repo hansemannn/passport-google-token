@@ -42,7 +42,7 @@ Use `passport.authenticate('google-token')` to authenticate requests.
     });
 
 GET request need to have `access_token` and optionally the `refresh_token` in either the query string or set as a header.  If a POST is being preformed they can also be included in the body of the request. Note: Since 0.1.3, this strategy primarily uses the ID token to be used. It will fallback to a classic access token
-based auth strategy if the token does not havea proper structure.
+based auth strategy if the token does not have a proper structure.
 
 ## Credits
 
